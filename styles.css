@@ -1,0 +1,351 @@
+body {
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+  color: #343A40;
+}
+
+h1, h2, h5 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+  font-size: 1.0rem;
+  font-weight: bold;
+}
+
+h6 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #1C4FA2;
+}
+
+/*Container*/
+.container-fluid {}
+
+/*Headings*/
+.big-heading {
+  line-height: 1.5;
+  font-weight: 900;
+  font-size: 3.0rem;
+}
+
+.sub-heading {
+  padding: 3% 15% 6% 0;
+  font-size: 1.5rem;
+}
+
+.platform-heading {
+  color: #1C4FA2;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.learn-heading {
+  color: #1C4FA2;
+  text-align: center;
+  padding-top: 25px;
+}
+
+/*Title-Section*/
+.title-section {
+  background-color: #F5F5F5;
+  color: #1C4FA2;
+  padding: 7% 0 5% 15%;
+}
+
+.title-image {
+  height: 500px;
+  width: 500px;
+  max-width: 100%;
+  object-fit: scale-down;
+}
+
+/*Navigation Bar*/
+.navbar {
+  padding: 0.5% 24% 0.5% 15%;
+  border-bottom: solid thin;
+  border-color: #DFDFE1;
+  color: #1C4FA2;
+}
+
+.nav-link:hover {
+  color: #EDA43B !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #1C4FA2;
+  padding: 0 50px;
+}
+
+.search-button {
+  background-color: #EDA43B;
+  border: none;
+}
+
+/*Feature Section*/
+#features {
+  padding: 0% 15% 0 15%;
+}
+
+.feature-image:hover {
+  transform: scale(1.2);
+}
+
+.feature-heading {
+  color: #1C4FA2;
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+/*Platform Section*/
+#platform {
+  padding: 0 15% 3% 15%;
+}
+
+.platform-explain {
+  margin: 5% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.laptop {
+  max-width: 100%;
+  object-fit: scale-down;
+}
+
+.advantages {
+  line-height: 2.5rem;
+  font-size: 1.2rem;
+}
+
+.fa-check-circle {
+  color: #1C4FA2;
+}
+
+/*Learn-Categories Section*/
+#Lernkategorien {
+  background-color: #71A1F0;
+  color: white;
+  text-align: center;
+  padding: 0% 15% 0 15%;
+}
+
+.learn-sub-heading {
+  margin: 1% 20% 0 20%;
+  color: #1C4FA2;
+}
+
+.learn-level {
+  padding: 5% 2% 5% 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-header {
+  background-color: white;
+  color: #1C4FA2;
+}
+
+.card {
+  font-weight: 300;
+  background-color: #71A1F0;
+  border: solid 1px;
+  height: 365px;
+  width: 450px;
+}
+
+.subjects:hover {
+  transform: scale(1.5)
+}
+
+/*Testimonials*/
+#Testimonials {
+  text-align: center;
+  padding: 3% 15%;
+  color: #1C4FA2;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%231C4FA2' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%231C4FA2' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.testimonial-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 60%;
+  margin: 20px;
+}
+
+#footer {
+  background-color: #F5F5F5;
+  color: grey;
+  text-align: center;
+  overflow-x: hidden;
+  height: 200px;
+  font-weight: 300;
+}
+
+.logo-footer {
+  margin: 50px 0 30px 0;
+}
+
+/*Mobile Responsiveness Homepage*/
+@media (max-width:1000px) {
+  .laptop {}
+
+  #features {}
+}
+
+/* ------------------------------PDP----------------------*/
+/* PDP Pageheading*/
+#pageheader {
+  background-color: #DFDFE1;
+}
+
+.pageheading {
+  padding-left: 15%;
+  padding-top:3%;
+  padding-right:5%;
+}
+
+.logo-area {
+  max-width: 100%;
+}
+
+.logo {
+  padding: 2%;
+  height: 100px;
+  width: 100px;
+}
+
+.name-area {
+  position: block;
+  padding-right: 10%;
+}
+
+.name-button {
+  padding-right: 100px;
+}
+
+.lernapp-name {
+  font-weight: bold;
+  margin-left: 1%;
+  position: relative;
+}
+
+.link-button {
+  margin: auto;
+  background-color: #EDA43B;
+  border: solid 1px #fff;
+  max-width: 100%;
+}
+
+.rating {
+  padding-top: 10px;
+
+}
+
+.fa-star {
+  color: #EDA43B;
+}
+
+.learnapp-nav {
+  padding: 0 0 0 22.5%;
+}
+
+#pageheader .nav-link {
+  color: #1C4FA2;
+  padding: 25px 25px 25px;
+}
+
+/*PDP Information*/
+#Produktinformation {
+  padding-left: 15%;
+  padding-right: 10%;
+  margin-top: 50px;
+}
+
+.Lernapp-Produktinformation {
+  padding-right: 50px;
+}
+
+.Blick {
+  color: #EDA43B;
+}
+
+.placeholder {
+  height: 285px;
+  width: 500px;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: scale-down;
+  border: solid 1px;
+}
+
+/*Learn Category*/
+#Lernkategorie {
+  margin-top: 70px;
+  padding-left: 15%;
+}
+
+.learn-category {
+  padding: 1% 0 0 0;
+}
+
+/* Edux Bewertung*/
+#Edux-Bewertung {
+  margin-top: 75px;
+  padding-left: 15%;
+}
+
+.Lernapp-Edux {
+  padding-top: 10px;
+}
+
+.table {}
+
+/*User Reviews*/
+#user-reviews {
+  padding-left: 15%;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.User-Picture {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.review {
+  margin: 3% 0 0;
+}
+
+.fa-user {
+  border: solid 1px;
+  border-radius: 100%;
+  padding: 5%;
+  max-width: 100%;
+}
+
+.user-content {
+  padding: 0 20% 0 1%;
+}
+
+.User-Sub-Header {
+  color: grey;
+}
