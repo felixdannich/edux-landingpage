@@ -204,10 +204,72 @@ h6 {
 }
 
 /*Mobile Responsiveness Homepage*/
-@media (max-width:1000px) {
-  .laptop {}
+@media (max-width:992px) {
 
-  #features {}
+.big-heading{
+  font-size:3.5rem;
+}
+
+.sub-heading{
+  font-size:2.0rem;
+}
+
+.title-image-area{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:10% 15% 0 0;
+}
+
+.search-button {
+  font-size:2.0rem;
+}
+
+#features{
+  margin-bottom:8%;
+}
+
+.feature-image{
+  width: 60%;
+  height:auto;
+}
+
+.feature-heading{
+  font-size:2.0rem;
+}
+
+.feature-box{
+  font-size:1.5rem;
+}
+
+#platform{
+  padding: 0 0 5%;
+}
+
+.platform-heading, .learn-heading {
+  font-size:2.5rem;
+}
+
+.advantages {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.learn-sub-heading{
+  font-size:1.5rem;
+  margin: 2% 0 2%;
+}
+
+.card{
+  width:80%;
+  height:auto;
+  font-size:1.5rem;
+}
+
+h3{
+  font-size:2.0rem;
+}
+
 }
 
 /* ------------------------------PDP----------------------*/
