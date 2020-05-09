@@ -270,6 +270,16 @@ h3{
   font-size:2.0rem;
 }
 
+.nav-link{
+  font-size:2.0rem;
+  text-align: right;
+}
+
+.edux-logo{
+  width:50%;
+  height: auto;
+}
+
 }
 
 /* ------------------------------PDP----------------------*/
