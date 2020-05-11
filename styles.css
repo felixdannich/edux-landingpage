@@ -322,12 +322,14 @@ h3{
 .link-button {
   margin: auto;
   background-color: #EDA43B;
+  color:white;
   border: solid 1px #fff;
   max-width: 100%;
 }
 
 .rating {
   padding-top: 10px;
+  padding-bottom:20px;
 
 }
 
@@ -420,4 +422,109 @@ h3{
 
 .User-Sub-Header {
   color: grey;
+}
+
+
+
+#search-results{
+  padding: 3% 10% 5% 15%;
+}
+
+.compare-heading{
+  padding: 0 0 2%;
+}
+
+.filter-card-header{
+  color:#fff;
+  background-color: #71A1F0;
+}
+
+.filter-card {
+  font-weight: 300;
+  border: solid 1px;
+  height: auto;
+  width: 100%;
+}
+
+.filter-card-body{
+background-color: #fff;
+}
+
+.form{
+  padding-bottom:7%;
+}
+
+.search-card{
+  width:100%;
+  height: auto;
+  border:solid 1px;
+  background-color: #fff;
+  padding:2% 0 2% 3%;
+  margin-bottom:3%;
+}
+
+
+
+/* Disclaimer Page*/
+#disclaimer{
+  padding: 3% 25% 0 25%;
+  text-align: center;
+}
+
+.disclaimer-heading{
+  color:#1C4FA2;
+  font-size:2rem;
+}
+
+.disclaimer-pic{
+  height: 15%;
+  width:15%;
+}
+
+.edux-what, .edux-who{
+  padding-bottom:1% ;
+}
+
+.edux-team{
+  padding-top:5%;
+}
+
+.logo-text1{
+  color:#1C4FA2;
+}
+
+.logo-text2{
+  color:#EDA43B;
+}
+
+.team-pic{
+  border-radius:50%;
+  height:150px;
+  width:auto;
+  filter:grayscale(90%);
+}
+
+.team-pic:hover{
+  filter:none;
+  transform: scale(1.2);
+}
+
+.card-member{
+  background-color:#fff;
+  display:inline-block;
+  border:none;
+  width:33%;
+}
+
+.team-name{
+  padding: 5% 0 5%;
+  color:grey;
+}
+
+.hr-information{
+  margin: 5% 0 5%;
+}
+
+.info-text{
+  line-height: 2.0;
 }
