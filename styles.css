@@ -410,8 +410,7 @@ h3{
 }
 
 .fa-user {
-  border: solid 1px;
-  border-radius: 100%;
+
   padding: 5%;
   max-width: 100%;
 }
@@ -466,7 +465,7 @@ background-color: #fff;
 .search-image{
   width:100px;
   height:100px;
-  
+
 }
 
 
@@ -505,7 +504,7 @@ background-color: #fff;
 .team-pic{
   border-radius:50%;
   height:150px;
-  width:auto;
+  width:150px;
   filter:grayscale(90%);
 }
 
@@ -516,14 +515,13 @@ background-color: #fff;
 
 .card-member{
   background-color:#fff;
-  display:inline-block;
   border:none;
-  width:33%;
 }
 
 .team-name{
   padding: 5% 0 5%;
   color:grey;
+  text-align: center;
 }
 
 .hr-information{
