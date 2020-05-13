@@ -195,23 +195,50 @@ h6 {
   color: grey;
   text-align: center;
   overflow-x: hidden;
-  height: 200px;
   font-weight: 300;
 }
 
+.footer-info{
+  padding: 2% 0 2%;
+}
+
 .logo-footer {
-  margin: 50px 0 30px 0;
+  margin: 50px 0 20px 0;
 }
 
 /*Mobile Responsiveness Homepage*/
 @media (max-width:992px) {
 
+  .navbar-nav{
+    font-size:2.5rem;
+    text-align: right;
+    padding-top:5%;
+  }
+
+  .nav-item{
+    padding-bottom:2%;
+  }
+
+.navbar-expand-lg{
+  padding:6% 0 6% 15%;
+}
+
+.edux-logo{
+  width:70%;
+  height: auto;
+}
+
+.navbar-toggler-icon{
+  width:90px;
+  height:90px;
+}
+
 .big-heading{
-  font-size:3.5rem;
+  font-size:4.0rem;
 }
 
 .sub-heading{
-  font-size:2.0rem;
+  font-size:2.5rem;
 }
 
 .title-image-area{
@@ -222,10 +249,12 @@ h6 {
 }
 
 .search-button {
-  font-size:2.0rem;
+  font-size:2.5rem;
+  padding:2% 2% 2%;
 }
 
 #features{
+  padding: 0% 2% 0 2%;
   margin-bottom:8%;
 }
 
@@ -235,11 +264,11 @@ h6 {
 }
 
 .feature-heading{
-  font-size:2.0rem;
+  font-size:2.5rem;
 }
 
 .feature-box{
-  font-size:1.5rem;
+  font-size:2.0rem;
 }
 
 #platform{
@@ -247,37 +276,49 @@ h6 {
 }
 
 .platform-heading, .learn-heading {
-  font-size:2.5rem;
+  font-size:3.0rem;
 }
 
 .advantages {
-  font-size: 1.5rem;
+  font-size: 2.0rem;
   text-align: center;
+  line-height: 3.5rem;
+}
+
+#Lernkategorien{
+  padding: 0% 5% 0 5%;
 }
 
 .learn-sub-heading{
-  font-size:1.5rem;
+  font-size:2.0rem;
   margin: 2% 0 2%;
 }
 
 .card{
   width:80%;
   height:auto;
-  font-size:1.5rem;
+  font-size:2.0rem;
 }
 
 h3{
-  font-size:2.0rem;
+  font-size:2.5rem;
 }
 
-.nav-link{
-  font-size:2.0rem;
-  text-align: right;
+#Testimonials{
+  padding: 0;
 }
 
-.edux-logo{
-  width:50%;
+h6 {
+  font-size: 2.0rem;
+}
+
+.logo-footer{
+  width:20%;
   height: auto;
+}
+
+.footer-info{
+  font-size:2.0rem;
 }
 
 }
@@ -370,6 +411,11 @@ h3{
   border: solid 1px;
 }
 
+.fragen{
+  padding: 4% 0 1%;
+  font-size:1.3rem;
+}
+
 /*Learn Category*/
 #Lernkategorie {
   margin-top: 70px;
@@ -426,7 +472,7 @@ h3{
 
 
 #search-results{
-  padding: 3% 10% 5% 15%;
+  padding: 3% 10% 20% 15%;
 }
 
 .compare-heading{
